@@ -639,7 +639,7 @@ span{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem 1rem; /* beri ruang atas bawah dan samping */
+  padding: 4rem 1rem; 
   background-color: #232d48; 
 }
 /* Kotak form */
@@ -764,4 +764,5 @@ footer{
   width: 100%;
   font-size: x-large;
   margin-left: 0%;
+
 }
