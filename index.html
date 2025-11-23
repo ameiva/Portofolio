@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
@@ -13,11 +13,12 @@
         <nav>
             <a href="#home" class="active">Home</a>
             <a href="#about">About me</a>
+            <a href="#portfolio">Projects</a>
             <a href="#activities">Activities</a>
-            <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
+
     <section class="home" id="home">
         <div class="home-img">
             <img src="Revar.png" alt="">
@@ -25,61 +26,184 @@
         <div class="home-content">
             <h1>Hi, It's <span>Revania</span></h1>
             <h3 class="typing-text">I'm a <span></span></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Minus labore dolores esse. Odit similique
-              doloribus tenetur doloremque, sunt commodi in ipsa
-              repudiandae debitis deleniti blanditiis quibusdam
-              quaerat neque asperiores ea.</p>
+            <p>Halo, saya <strong>Revania Mei Andini </strong>, siswi kelas 11 di SMK Negeri 1 Purwosari. Selain suka belajar coding, saya juga aktif berorganisasi dan senang mengikuti berbagai kegiatan bersama teman-teman. Saya selalu antusias belajar hal baru dan berkomitmen untuk terus berkembang di dunia teknologi.</p>
             <div class="social-icons">
-                <a href="https://wa.me/+6289603171709"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://github.com/ameiva"><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/rvniamei?s=09"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/rvniameii?igsh=MXVqNGw1NTdyaXc5Yw=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/6289603171709" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/ameiva" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/revania-mei-andini" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/rvniameii" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="https://wa.me/+6289603171709" class="btn1">Contact me</a>
+            <a href="CV-Revania-Mei-Andini.pdf" download class="btn1">Download CV</a>
         </div>
-<!--About-->
-    </section>
-    <section id="about" class="about-section">
-      <div class="about-container">
-        <h2>About <span class="highlight">Me</span></h2>
-        <p>
-          Hai! Aku <span class="highlight">Revania</span>,
-          seorang yang suka ngulik teknologi sambil dengerin
-          musik favorit. Aku suka banget belajar hal baru seperti
-          mengambil jurusan RPL ini, padahal aku senang sekali
-          memasak (bukan jago), tapi tidak mengambil APHP karena
-          aku ingin mencoba hal baru dan tertarik dengan dunia IT.
-          Dari smp aku sudah senang utak-atik komputer seperti
-          membuat ppt, scratch, dls. Sekarang, aku pengen terus
-          mengasah skill supaya bisa bikin karya yang nggak cuma
-          keren tapi juga bermanfaat buat banyak orang.</p>
-        <ul class="about-list">
-          <li><strong>Location:</strong> Kecamatan Pandaan, Jawa Timur</li>
-          <li><strong>Email:</strong> revnyaa@email.com</li>
-          <li><strong>Hobby:</strong> Cooking, playing badmintoon</li>
-        </ul>
-      </div>
     </section>
 
-<!-- Activities-->
-  <section class="activities" id="activities">
-  <div class="section-header">
-    <h1>My Activities</h1>
-    <p>This is my activities outside of school</p>
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+    <div class="about-container">
+        <div class="about-img">
+            <img src="about.png" alt="profile">
+        </div>
+        <div class="about-info">
+            <h1 class="about-title"><span>It's me!</span><br>Revania Mei Andini</h1>
+            <p class="about-desc">
+                I'm a siswi <strong>SMK Negeri 1 Purwosari</strong> jurusan
+                <strong>Rekayasa Perangkat Lunak.</strong> dengan fokus di
+                bidang pengembangan <strong>Front-End</strong> Saya memiliki
+                kemampuan membuat tampilan web yang menarik dan interaktif
+                menggunakan teknologi seperti <strong>HTML, CSS, JavaScript,</strong>
+                serta framework <strong>React.js dan Laravel</strong>. Saya juga
+                senang belajar hal baru dan terus mengembangkan keterampilan
+                saya di dunia pemrograman atau hal lain.
+            </p>
+            <a href="mailto:rvniameia@gmail.com" class="resume-btn">
+                Contact me <i class="fa-regular fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio section" style="background-color:#232d48;">
+  <div class="container">
+    <h2 class="section-title fade-in" style="border-bottom-color:#8EC6E6;">My Projects</h2>
+    <div class="portfolio-grid">
+
+        <!-- CARD 1 -->
+        <div class="portfolio-item fade-in" data-category="web">
+            <div class="portfolio-image">
+                <img src="dessert-shop.png" alt="Dessert-shop">
+                <div class="portfolio-overlay">
+                    <a href="https://ameiva.github.io/dessert-shop/" target="_blank" class="portfolio-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">Dessert Shop</h3>
+                <p class="portfolio-description">Website toko kue online dengan UI yang halus dan animasi interaktif yang menarik untuk pengguna.</p>
+                <div class="portfolio-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">React js</span>
+                    <span class="tag">React Icons</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="portfolio-item fade-in" data-category="mobile">
+            <div class="portfolio-image">
+                <img src="TravelRein.png" alt="Travel Website">
+                <div class="portfolio-overlay">
+                    <a href="https://ameiva.github.io/Travel/" target="_blank" class="portfolio-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">Travel Website</h3>
+                <p class="portfolio-description">Situs destinasi perjalanan dengan navigasi yang rapi dan tampilan modern.</p>
+                <div class="portfolio-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JS</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="portfolio-item fade-in" data-category="branding">
+            <div class="portfolio-image">
+                <img src="weather-app.png" alt="Brand Identity Design">
+                <div class="portfolio-overlay">
+                    <a href="https://github.com/ameiva/weather-app" target="_blank" class="portfolio-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">Weather App</h3>
+                <p class="portfolio-description">Menampilkan informasi cuaca secara real-time dengan fitur pencarian lokasi dan mode gelap/terang untuk kenyamanan pengguna.</p>
+                <div class="portfolio-tags">
+                    <span class="tag">HTML </span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JS</span>
+                    <span class="tag">API Cuaca</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="portfolio-item fade-in" data-category="web">
+            <div class="portfolio-image">
+                <img src="cake-store-figma.png" alt="Cake Store">
+                <div class="portfolio-overlay">
+                    <a href="https://www.figma.com/proto/eVJrSjQtNGjDNqGuyyYHf7/cake-store?node-id=266-310&p=f&t=KFBvgorWeLeYBwUG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=266%3A310" class="portfolio-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">Cake Store</h3>
+                <p class="portfolio-description">Cake store di Mobile App menggunakan Figma dan dengan portotype sederhana</p>
+                <div class="portfolio-tags">
+                    <span class="tag">Web Design</span>
+                    <span class="tag">Figma</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="portfolio-item fade-in" data-category="mobile">
+            <div class="portfolio-image">
+                <img src="Independence-day.png" alt=" Website Hari Kemerdekaan">
+                <div class="portfolio-overlay">
+                    <a href="https://ameiva.github.io/Website-Independence-day/" target="_blank" class="portfolio-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">Independence Day Website</h3>
+                <p class="portfolio-description">Situs web bertema patriotik yang merayakan Hari Kemerdekaan Indonesia.</p>
+                <div class="portfolio-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JS</span>
+                </div>
+            </div>
+        </div>
+
+         <!-- CARD 6 -->
+        <div class="portfolio-item fade-in" data-category="web">
+            <div class="portfolio-image">
+                <img src="kalkulator.png" alt="Kalkulator Bangun Ruang">
+                <div class="portfolio-overlay">
+                    <a href="https://github.com/ameiva/kalkulator-bangun-ruang" class="portfolio-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-content">
+                <h3 class="portfolio-title">Kalkulator Bangun Ruang</h3>
+                <p class="portfolio-description">Website untuk menghitung luas dan volume bangun ruang</p>
+                <div class="portfolio-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JS</span>
+                    <span class="tag">PHP</span>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
-  <div class="container"> 
+</section>
+
+<section class="activities" id="activities">
+  <div class="content">
+    <div class="title"><span>My Activities</span></div>
+  </div>
+  <div class="activities-details">
+    <div class="text">
+    This is my activities outside of school
+  <div class="container">
     <div class="card">
       <div class="imgBx">
-        <img src="img1.jpg" alt="serlink">
+        <img src="demos1.jpg" alt="serlink">
       </div>
       <div class="content">
-        <h2>Buka bersama</h2>
-        <p>pada tanggal 21 Maret saya beserta 4
-          teman smp saya bukber di Pesenkopi Plus
-          yang terletak di Sukorame, Durensewu, Kec.
-          Pandaan. Tidak lupa juga membuat video velocity
-          yang hits pada masa itu </p>
+        <h2>Demo Extrakurikuler</h2>
+        <p>Pada tanggal 17 Juli 2025, saya ikut demo
+           ekstrakurikuler Taekwondo yang menampilkan
+           tendangan, memecah triplek, bata, dls.</p>
       </div>
     </div>
     <div class="card">
@@ -87,11 +211,10 @@
         <img src="img2.jpg" alt="dua">
       </div>
       <div class="content">
-        <h2>Barbeque an</h2>
-        <p>Pada tanggal 21 Desember kita merayakan
-          akhir tahun dengan bbq an, seperti sosis,
-          bakso, dan daging ayam. Selain itu tidak
-          lupa juga untuk tiktok an</p>
+        <h2>Bersih Sungai</h2>
+        <p>Pada 16 Oktober 2025, Sekolah Sungai Harmony
+           Kaliku mengadakan aksi bersih sungai dan tanam
+           pohon untuk menjaga lingkungan.</p>
       </div>
     </div>
     <div class="card">
@@ -100,7 +223,7 @@
   </div>
   <div class="content">
     <h2>LBB</h2>
-    <p>Pada tanggal 2 November angkatan osis thn 2023
+    <p>Pada tanggal 2 November angkatan osis thn 2022/2023
       diundang ke smp untuk melatih LBB adek adek
       yang akan pelantikan OSIS masa periode 2024/2025</p>
   </div>
@@ -118,13 +241,13 @@
     </div>
     <div class="card">
       <div class="imgBx">
-        <img src="img5.jpg" alt="lima">
+        <img src="demos2.jpg" alt="lima">
       </div>
       <div class="content">
-        <h2>Barbeque an</h2>
-        <p>Pada tanggal 21 Desember juga  saya dan teman OSIS 
-          smp saya bbq an, seperti sosis,
-          bakso, dan daging ayam dan aneka Frozen Food lainnya. </p>
+        <h2>Demo Extrakurikuler</h2>
+        <p>Pada tanggal 17 Juli 2025, ikut serta dalam demo extrakurikuler bersama
+           pecinta alam dengan tema ajakan membuang sampah pada
+           tempatnya dan edukasi ketika naik gunung </p>
       </div>
     </div>
     <div class="card">
@@ -132,194 +255,82 @@
         <img src="img6.jpg" alt="enam">
       </div>
       <div class="content">
-        <h2>Taekwondo</h2>
-        <p>Nah ini salah satu ekstra yang saya
-          ikuti di SMKN 1 PURWOSARI, yaitu 
-          Taekwondo yang biasanya dilaksanakan
-          pada hari rabu dan jumat
+        <h2>Diklatsar</h2>
+        <p>Menjadi Panitia Diklatsar dan LDKS gabungan yang dilaksanakan
+           di Pancar air, Desa Cowek, Purwodadi 2 hari 1 malam
         </p>
       </div>
     </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="img7.jpg" alt="tujuh">
-      </div>
-      <div class="content">
-        <h2>Degdayapala</h2>
-        <p>Degdayapala adalah nama extra
-          pecinta alam di SMKN 1 PURWOSARI.
-          Extra ini dilakukan setiap hari jumat 
-          dan sabtu. foto yang saya tampilkan
-          adalah foto ketika Diklatsar di Jempinang
-          River Tubing yang terletak di desa Sumberejo.
-        </p>
-      </div>
-    </div>
-  </div>
-  <section class="card-container">
-  <div class="card">
-    <div class="card-inner">
-      <div class="card-front">
-        <img src="image1.jpg" alt="Foto 1">
-      </div>
-      <div class="card-back">
-        <h2>Pameran Seni Rupa</h2>
-        <p>Pameran ini digelar di K-Naya Coffe & Event Space</p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-inner">
-      <div class="card-front">
-        <img src="image3.jpg" alt="Foto 2">
-      </div>
-      <div class="card-back">
-        <h2>Air Terjun Lorokan</h2>
-        <p></p>Foto ini diambil di air trrjun gunung lorokani</p>
-      </div>
-    </div>
-  </div>
- <div class="card">
-    <div class="card-inner">
-      <div class="card-front">
-        <img src="image4.jpg" alt="Foto 3">
-      </div>
-      <div class="card-back">
-        <h2>Photobox</h2>
-        <p>hotobox menggunakan kebaya</p>
-      </div>
-    </div>
-  </div>
-   <div class="card">
-    <div class="card-inner">
-      <div class="card-front">
-        <img src="image5.jpg" alt="Foto 4">
-      </div>
-      <div class="card-back">
-        <h2>Putuk Lesung</h2>
-        <p>Yaitu gunung dibawahnya gunung Arjno</p>
-      </div>
-    </div>
-  </div>
-   <div class="card">
-    <div class="card-inner">
-      <div class="card-front">
-        <img src="image6.jpg" alt="Foto 5">
-      </div>
-      <div class="card-back">
-        <h2>Photobox</h2>
-        <p>Photobox menggunakan costum</p>
-      </div>
     </div>
   </div>
 </section>
 
-<!--Experience-->
-<section class="experience" id="experience">
-  <div class="section-header">
-    <h1>My Experience</h1>
-    <p>This is my Experience</p>
-  </div>
-<div class="card2-group">
-  <div class="card2">
-    <img src="BCC2.jpg" alt="Workshop Personal Branding">
-    <div class="layer"></div>
-    <div class="info">
-      <h1>Workshop Personal Branding</h1>
-      <p> 
-        Mengikuti workshop yang membahas Building a Strong
-        Personal Branding dan tips & trik menyabet beasiswa
-        di Institut Teknologi Sepuluh November pada tanggal
-        28 September 2024. Di sini aku diajarin cara buat esai,
-        talkshow bareng peserta CoC, gimana cara jadi siswa
-        berprestasi, gimana cara berbicara di depan umum
-        dengan percaya diri, dan masih banyak lagi
-      </p>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="konten">
+        <h1>Kontak Kami</h1>
+        <form>
+            <div class="form-group">
+                <label for="data_nama">Nama:</label>
+                <input type="text" id="data_nama" name="data_nama" required>
+            </div>
+            <div class="form-group">
+                <label for="data_tanya">Pertanyaan:</label>
+                <textarea name="data_tanya" id="data_tanya" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
     </div>
-  </div>
-  <div class="card2">
-    <img src="BCC3.jpg" alt="Free Class Pemrograman C++">
-    <div class="layer"></div>
-    <div class="info">
-      <h1>Free Class Pemrograman C++</h1>
-      <p> 
-        Mengikuti  Free Class Pemrograman
-        C++ via zoom yang dilaksanakan
-        tanggal 14 September 2024. DIsini aku
-        belajar tentang konsep dasar
-        pemrograman seperti variabel (Tempat
-        penyimpanan data yang memiliki nama
-        dan nilai tertentu), tipe data (if,
-        else, for, while), operator
-        (operator aritmatika, operator logika),
-        struktur kontrol (loop, conditional statement),
-        fungsi, dan struktur data (array)
-      </p>
-    </div>
-  </div>
-  <div class="card2">
-    <img src="BCC1.jpg" alt="Workshop Personal Branding">
-    <div class="layer"></div>
-    <div class="info">
-      <h1>Workshop 1 BCC</h1>
-      <p> 
-        BCC adalah workshop yang mengajarkan cara membuat
-        executive summary singkat, jelas, dan efektif dengan
-        merangkum masalah, solusi, serta rekomendasi strategis
-        bisnis. Peserta belajar menyusun ringkasan yang menarik
-        dan mudah dipahami oleh pengambil keputusan, sehingga
-        mampu menyampaikan ide bisnis secara profesional dan
-        persuasif dalam waktu terbatas. </p>
-    </div>
-  </div>
-</div>
 </section>
-<section class="contact" id="contact">     
-  <div class="konten">
-    <h1>Kontak Kami</h1>
-    <form>
-      <div class="form-group">
-        <label for="data_nama">Nama:</label>
-        <input type="text" id="data_nama" name="data_nama" required>
-      </div>
-      <div class="form-group">
-        <label for="data_tanya">Pertanyaan:</label>
-        <textarea name="data_tanya" id="data_tanya" required></textarea>
-      </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
+<footer>
+  <div class="footer-content">
+    <p>© 2025 Revania Mei Andini. All rights reserved.</p>
+    <p>Contact: <a href="mailto:rvniameia@gmail.com">rvniameia@gmail.com</a></p>
   </div>
-</section>
-  <footer>
-  <p>&copy; About me - Revania</p>
-  </footer>
+</footer>
 
 <script>
+    // Highlight active nav link on scroll
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('nav a');
     function onScroll() {
-      let scrollPos = window.scrollY + 80;
-      sections.forEach(section => {
-        if (
-          scrollPos >= section.offsetTop &&
-          scrollPos < section.offsetTop + section.offsetHeight
-        ) {
-          navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href').substring(1) === section.getAttribute('id')) {
-              link.classList.add('active');
+        let scrollPos = window.scrollY + 80;
+        sections.forEach(section => {
+            if(scrollPos >= section.offsetTop && scrollPos < section.offsetTop + section.offsetHeight){
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if(link.getAttribute('href').substring(1) === section.getAttribute('id')){
+                        link.classList.add('active');
+                    }
+                });
             }
-          });
-        }
-      });
+        });
     }
     window.addEventListener('scroll', onScroll);
     navLinks.forEach(link => {
-      link.addEventListener('click', function() {
-        navLinks.forEach(l => l.classList.remove('active'));
-        this.classList.add('active');
-      });
+        link.addEventListener('click', function(){
+            navLinks.forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+        });
     });
+    document.addEventListener("DOMContentLoaded", () => {
+  const faders = document.querySelectorAll(".fade-in");
+  const options = {
+    threshold: 0.1
+  };
+  const appearOnScroll = new IntersectionObserver((entries, appearOnScroll) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    });
+  }, options);
+
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+  });
+});
+
 </script>
 </body>
 </html>
