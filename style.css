@@ -308,11 +308,11 @@ span{
 }
 
 .about-info {
-  max-width: 550px;
+  max-width: 470px;
 }
 
 .about-title {
-  font-size: 4.3rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #ffffff;
   line-height: 1.2;
@@ -323,7 +323,7 @@ span{
 }
 
 .about-desc {
-  font-size: 1.65rem;
+  font-size: 1.40rem;
   color: #cfd8ff;
   margin: 2rem 0;
   line-height: 1.7;
